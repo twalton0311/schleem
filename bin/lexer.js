@@ -27,6 +27,25 @@ class Lexer {
 
   nextToken() {
     let token = new token.Token()
+
+    this.skipWhitespace()
+
+    switch (this.ch) {
+      case '=':
+        // test if '=='
+        break
+      case '+':
+        break
+      case '(':
+        break
+      case ')':
+        break
+      default:
+        break 
+    }
+
+    this.readChar()
+    return token
   }
 
   skipWhitespace() {
