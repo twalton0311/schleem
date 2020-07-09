@@ -1,0 +1,14 @@
+{
+  "name": "schleem",
+  "version": "1.0.0",
+  "description": "A Scheme interpreter in Node",
+  "main": "bin/index.js",
+  "bin": {
+  	"schleem": "./bin/index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tobin Walton",
+  "license": "MIT"
+}
